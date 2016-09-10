@@ -1,0 +1,46 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"BetterFindBuffer",
+		"CTags",
+		"Cucumber",
+		"Cucumber Completion",
+		"Cucumber Step Finder",
+		"DashDoc",
+		"Emmet",
+		"ExtendedTabSwitcher",
+		"Find++",
+		"GitGutter",
+		"GotoWindow",
+		"Handlebars",
+		"Http Requester",
+		"Jedi - Python autocompletion",
+		"Marked App Menu",
+		"Material Theme",
+		"Materialize",
+		"Monokai Extended",
+		"Open URL",
+		"Open-Include",
+		"Origami",
+		"Package Control",
+		"Pretty JSON",
+		"RESTer HTTP Client",
+		"Sass",
+		"SideBarEnhancements",
+		"SublimeGit",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"SublimeLinter-jscs",
+		"SublimeLinter-jshint",
+		"SublimeLinter-rubocop",
+		"Sublimerge Pro",
+		"Theme - Soda",
+		"Vintageous",
+		"VintageousPluginSurround"
+	]
+}

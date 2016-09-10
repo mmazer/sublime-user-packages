@@ -1,0 +1,11 @@
+[
+ {
+    "caption": "git: log with options",
+    "command": "gs_custom",
+    "args": {
+        "output_to_panel": true,
+        "args": ["log", "{PROMPT_ARG}"],
+        "prompt_msg": "Git log options: "
+    }
+ }
+]

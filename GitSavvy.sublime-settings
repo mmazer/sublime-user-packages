@@ -1,0 +1,9 @@
+{
+    /*
+        Change this to `true` to display a diff for the current commit
+        when writing a commit message.
+     */
+    "show_commit_diff": true,
+    "prompt_before_destructive_action": false,
+     "vintageous_friendly": false,
+}

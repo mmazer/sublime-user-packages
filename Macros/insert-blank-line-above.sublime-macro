@@ -1,0 +1,18 @@
+[
+	{
+		"args":
+		{
+			"file": "res://Packages/Default/Add Line Before.sublime-macro"
+		},
+		"command": "run_macro_file"
+	},
+	{
+		"args":
+		{
+			"count": 1,
+			"mode": "mode_normal",
+			"xpos": 0
+		},
+		"command": "_vi_j"
+	}
+]

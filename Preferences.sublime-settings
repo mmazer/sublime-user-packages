@@ -1,0 +1,84 @@
+{
+	"added_words":
+	[
+		"codebase",
+		"behaviour",
+		"kinesiology"
+	],
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": false,
+	"caret_style": "solid",
+	"color_scheme": "Packages/User/SublimeLinter/Material Spaceblack Oceanic (SL).tmTheme",
+	"detect_indentation": false,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		"*.pyc",
+		"*.pyo",
+		"*.exe",
+		"*.dll",
+		"*.obj",
+		"*.o",
+		"*.a",
+		"*.lib",
+		"*.so",
+		"*.dylib",
+		"*.ncb",
+		"*.sdf",
+		"*.suo",
+		"*.pdb",
+		"*.idb",
+		".DS_Store",
+		"*.class",
+		"*.psd",
+		"*.db",
+		"*.sublime-workspace",
+		"tags",
+		".tags",
+		".tags_sorted_by_file",
+		"*.min.js",
+		".coverage",
+		".noseids",
+		"*.otf",
+		"*.woff"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		"node_modules",
+		"bower_components",
+		"dist",
+		"tmp"
+	],
+	"font_family": "Monaco",
+	"highlight_line": true,
+	"ignored_packages":
+	[
+		"JavaScript",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"material_theme_compact_panel": false,
+	"material_theme_contrast_mode": false,
+	"material_theme_small_statusbar": false,
+	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		100
+	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	"theme": "Material Spaceblack.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"vintageous_use_ctrl_keys": true
+}

@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+${1:name}: DS.attr(${2:props})${0}
+]]></content>
+    <tabTrigger>dsattr</tabTrigger>
+    <scope>source.js</scope>
+    <description>Ember DS.attr</description>
+</snippet>
