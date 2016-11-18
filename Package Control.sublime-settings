@@ -1,8 +1,6 @@
 {
 	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
+	"in_process_packages":[],
 	"installed_packages":
 	[
 		"Babel",
@@ -25,12 +23,12 @@
 		"Materialize",
 		"Monokai Extended",
 		"Open URL",
-		"Open-Include",
 		"Origami",
 		"Package Control",
 		"Pretty JSON",
 		"RESTer HTTP Client",
 		"Sass",
+		"Scheme",
 		"SideBarEnhancements",
 		"SublimeGit",
 		"SublimeLinter",
