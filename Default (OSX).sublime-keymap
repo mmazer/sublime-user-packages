@@ -1,6 +1,8 @@
 [
+  { "keys": ["ctrl+p"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    {"keys": ["super+p"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
     { "keys": ["super+option+b"], "command": "extended_switcher", "args": {"list_mode": "window"} },
-    { "keys": ["ctrl+alt+shift+tab"], "command": "extended_switcher", "args": {"list_mode": "active_group"} },
+    { "keys": ["super+shift+b"], "command": "extended_switcher", "args": {"list_mode": "active_group"} },
     { "keys": ["super+k", "k"], "command": "travel_to_pane", "args": {"direction": "up"} },
     { "keys": ["super+k", "l"], "command": "travel_to_pane", "args": {"direction": "right"} },
     { "keys": ["super+k", "j"], "command": "travel_to_pane", "args": {"direction": "down"} },
@@ -14,11 +16,14 @@
     { "keys": ["super+k", "ctrl+j"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
     { "keys": ["super+k", "ctrl+h"], "command": "carry_file_to_pane", "args": {"direction": "left"} },
     { "keys": ["super+k", "ctrl+up"], "command": "create_pane_with_file", "args": {"direction": "up"} },
-    { "keys": ["super+k", "ctrl+right"], "command": "carry_file_to_pane", "args": {"direction": "right"} },
-    { "keys": ["super+k", "ctrl+down"], "command": "carry_file_to_pane", "args": {"direction": "down"} },
-    { "keys": ["super+k", "ctrl+left"], "command": "carry_file_to_pane", "args": {"direction": "left"} },
+    { "keys": ["super+k", "ctrl+right"], "command": "create_pane_with_file", "args": {"direction": "right"} },
+    { "keys": ["super+k", "ctrl+down"], "command": "create_pane_with_file", "args": {"direction": "down"} },
+    { "keys": ["super+k", "ctrl+left"], "command": "create_pane_with_file", "args": {"direction": "left"} },
+    { "keys": ["super+k", "super+="], "command": "unzoom_pane", "args": {} },
     { "keys": ["ctrl+shift+t"], "command": "toggle_tabs" },
 
+
+    { "keys": ["shift+alt+d"], "command": "goto_definition" },
     { "keys": ["super+]"], "command": "git_gutter_next_change" },
     { "keys": ["super+["], "command": "git_gutter_prev_change" },
     {
@@ -37,14 +42,14 @@
         },
         "context": [{"key": "vi_insert_mode_aware"}]
     },
-    { "keys": ["ctrl+alt+s"], "command": "gs_show_status"},
+    { "keys": ["ctrl+s"], "command": "gs_show_status"},
+    { "keys": ["ctrl+alt+b"], "command": "gs_blame"},
     { "keys": ["super+alt+m"], "command": "marked" },
     { "keys": ["ctrl+f"], "command": "move", "args": {"by": "pages", "forward": true} },
     { "keys": ["ctrl+b"], "command": "move", "args": {"by": "pages", "forward": false} },
     { "keys": ["ctrl+super+]"], "command": "sublimelinter_goto_error", "args": {"direction": "next"}},
     { "keys": ["ctrl+super+["], "command": "sublimelinter_goto_error", "args": {"direction": "previous"} },
     { "keys": ["super+k","c"], "command": "destroy_pane", "args": {"direction": "self"}},
-    { "keys": ["ctrl+space"], "command": "show_overlay", "args": {"overlay": "command_palette"}},
 
     // auto-pair backtick
     { "keys": ["`"], "command": "insert_snippet", "args": {"contents": "`$0`"}, "context":
@@ -91,15 +96,38 @@
         {"key": "setting.is_sublimerge_edit_mode", "operator": "equal", "operand": false, "match_all": true}
     ]},
 
-    { "keys": ["super+shift+h"], "command": "prev_view_in_stack" },
-    { "keys": ["super+shift+l"], "command": "next_view_in_stack" },
     { "keys": ["super+alt+d"], "command": "add_date_stamp"},
 
-     /*** GIT BLAME ***/
-    // Show command
+    { "keys": ["super+alt+l"], "command": "next_view" },
+    { "keys": ["super+alt+h"], "command": "prev_view" },
+     {
+        "keys": ["super+alt+enter"],
+        "command": "gs_commit_view_do_commit",
+        "context": [
+            { "key": "setting.command_mode", "operator": "equal", "operand": false },
+            { "key": "setting.git_savvy.get_long_text_view", "operator": "equal", "operand": true },
+            { "key": "setting.git_savvy.commit_on_close", "operator": "equal", "operand": false }
+        ]
+    },
     { "keys": ["super+enter"], "command": "git_blame_show",
         "context": [
             { "key": "selector", "operator": "equal", "operand": "meta.git-blame.line"}
         ]
     },
+    // Block Nav
+    {
+
+      "keys" : [ "ctrl+shift+["], "command" : "block_nav", "args" : {"v_dir" : -1, "depth_offset" : 0 }
+    },
+    {
+      "keys" : [ "ctrl+shift+]",], "command" : "block_nav", "args" : {"v_dir" : 1, "depth_offset" : 0 }
+    },
+
+    // QuickFind
+    { "keys": ["ctrl+alt+s"], "command": "quickfind", "args": { "use_regex": true } },
+    { "keys": ["alt+s"], "command": "quickfind" },
+
+    { "keys": ["ctrl+alt+f"], "command": "select_favorite_file" },
+    { "keys": ["super+shift+o"], "command": "goto_window" },
+
 ]

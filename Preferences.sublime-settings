@@ -6,11 +6,31 @@
 		"kinesiology"
 	],
 	"always_show_minimap_viewport": true,
+	"binary_file_patterns":
+	[
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.m4v",
+		"*.epub",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
+	],
 	"bold_folder_labels": false,
 	"caret_style": "solid",
-	"color_scheme": "Packages/User/SublimeLinter/Material Spaceblack Oceanic (SL).tmTheme",
+	"color_scheme": "Packages/User/Material Spaceblack Oceanic (SL) (SublimePythonIDE).tmTheme",
 	"detect_indentation": false,
+	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
 	"file_exclude_patterns":
 	[
 		"*.pyc",
@@ -51,9 +71,11 @@
 		"node_modules",
 		"bower_components",
 		"dist",
-		"tmp"
+		"tmp",
+		"env"
 	],
-	"font_family": "Monaco",
+	"font_face": "Monaco",
+	"font_size": 12,
 	"highlight_line": true,
 	"ignored_packages":
 	[
@@ -67,8 +89,11 @@
 	],
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
+	"material_theme_accent_lime": true,
 	"material_theme_compact_panel": false,
-	"material_theme_contrast_mode": false,
+	"material_theme_compact_sidebar": true,
+	"material_theme_contrast_mode": true,
+	"material_theme_panel_separator": false,
 	"material_theme_small_statusbar": false,
 	"overlay_scroll_bars": "enabled",
 	"rulers":
