@@ -1,8 +1,6 @@
 {
 	"bootstrapped": true,
-	"in_process_packages":
-	[
-	],
+	"in_process_packages":[],
 	"installed_packages":
 	[
 		"All Autocomplete",
@@ -35,13 +33,13 @@
 		"Materialize",
 		"Monokai Extended",
 		"Open URL",
-		"Open-Include",
 		"Origami",
 		"Package Control",
 		"Pretty JSON",
 		"Quickfind",
 		"Ruby Completions",
 		"Sass",
+		"Scheme",
 		"SideBarEnhancements",
 		"Sublime Bookmarks",
 		"Sublime Files",
