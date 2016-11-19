@@ -7,4 +7,5 @@
     "prompt_before_destructive_action": false,
     "vintageous_friendly": true,
     "vintageous_enter_insert_mode": true,
+     "git_path": "/usr/local/bin/git"
 }
