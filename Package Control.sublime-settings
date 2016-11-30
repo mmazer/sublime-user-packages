@@ -1,12 +1,16 @@
 {
 	"bootstrapped": true,
-	"in_process_packages":[],
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"All Autocomplete",
+		"Anaconda",
 		"Babel",
 		"BetterFindBuffer",
 		"Block Nav",
+		"BracketHighlighter",
 		"Character Table",
 		"Codec",
 		"CTags",
@@ -21,13 +25,11 @@
 		"Find++",
 		"GitGutter",
 		"GitSavvy",
-		"Glue",
 		"GotoWindow",
 		"Handlebars",
 		"Http Requester",
 		"Indent XML",
 		"iOpener",
-		"Jedi - Python autocompletion",
 		"Marked App Menu",
 		"Material Theme",
 		"Materialize",
@@ -44,14 +46,17 @@
 		"Sublime Bookmarks",
 		"Sublime Files",
 		"SublimeLinter",
+		"SublimeLinter-contrib-sqlint",
 		"SublimeLinter-flake8",
 		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
 		"SublimeLinter-rubocop",
 		"SublimeManpage",
 		"Sublimerge 3",
+		"Surround",
+		"Terminal",
+		"Terminality",
 		"Theme - Soda",
-		"Vintageous",
-		"VintageousPluginSurround"
+		"Vintage Surround"
 	]
 }
