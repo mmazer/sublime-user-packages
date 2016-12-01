@@ -26,7 +26,7 @@
 	],
 	"bold_folder_labels": false,
 	"caret_style": "solid",
-	"color_scheme": "Packages/User/Material Spaceblack Oceanic (SL) (SublimePythonIDE).tmTheme",
+	"color_scheme": "Packages/Materialize/schemes/Material Spaceblack.tmTheme",
 	"detect_indentation": false,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
