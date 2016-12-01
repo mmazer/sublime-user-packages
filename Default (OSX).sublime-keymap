@@ -40,6 +40,11 @@
         "clip_to_line": true },
         "context": [{"key": "setting.command_mode"}]
     },
+    {
+      "keys": ["g","m"],
+      "command": "go_line_middle",
+      "context": [{"key": "setting.command_mode"}]
+    },
     // vintage-surround
     //{"keys": ["c", "s"], "command": "surround_change", "context": [{"key": "setting.command_mode"}]},
     {"keys": ["g", "s"], "command": "surround_selection", "context": [{"key": "setting.command_mode"}]},
