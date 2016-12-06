@@ -353,36 +353,6 @@
                 <key>foreground</key>
                 <string>#FFFFFF</string>
             </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimePythonIDE Error</string>
-            <key>scope</key>
-            <string>sublimepythonide.mark.error</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#DA2000</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimePythonIDE Gutter Mark</string>
-            <key>scope</key>
-            <string>sublimepythonide.gutter-mark</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#FFFFFF</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
-            <string>SublimePythonIDE Warning</string>
-            <key>scope</key>
-            <string>sublimepythonide.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#EDBA00</string>
-            </dict>
         </dict>
 		<dict>
 			<key>scope</key>

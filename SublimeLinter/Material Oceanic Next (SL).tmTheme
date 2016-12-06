@@ -7,9 +7,9 @@
   <key>gutterSettings</key>
   <dict>
     <key>background</key>
-    <string>#2C333B</string>
+    <string>#343d46</string>
     <key>divider</key>
-    <string>#2C333B</string>
+    <string>#343d46</string>
     <key>foreground</key>
     <string>#65737e</string>
     <key>selectionBackground</key>
@@ -18,24 +18,22 @@
     <string>#a7adba</string>
   </dict>
   <key>name</key>
-  <string>Oceanic Next</string>
-  <key>semanticClass</key>
-  <string>oceanic.next.dark</string>
+  <string>Material Oceanic Next</string>
   <key>settings</key>
   <array>
     <dict>
       <key>settings</key>
       <dict>
         <key>background</key>
-        <string>#1A1D23</string>
+        <string>#1B2B34</string>
         <key>caret</key>
         <string>#c0c5ce</string>
         <key>foreground</key>
-        <string>#c0c5ce</string>
+        <string>#CDD3DE</string>
         <key>invisibles</key>
         <string>#65737e</string>
         <key>lineHighlight</key>
-        <string>#2C333B</string>
+        <string>#65737e55</string>
         <key>selection</key>
         <string>#4f5b66</string>
       </dict>
@@ -59,7 +57,7 @@
       <key>settings</key>
       <dict>
         <key>foreground</key>
-        <string>#c0c5ce</string>
+        <string>#CDD3DE</string>
       </dict>
     </dict>
     <dict>
@@ -335,16 +333,6 @@
             </dict>
         </dict><dict>
             <key>name</key>
-            <string>SublimeLinter Warning</string>
-            <key>scope</key>
-            <string>sublimelinter.mark.warning</string>
-            <key>settings</key>
-            <dict>
-                <key>foreground</key>
-                <string>#DDB700</string>
-            </dict>
-        </dict><dict>
-            <key>name</key>
             <string>SublimeLinter Gutter Mark</string>
             <key>scope</key>
             <string>sublimelinter.gutter-mark</string>
@@ -353,106 +341,17 @@
                 <key>foreground</key>
                 <string>#FFFFFF</string>
             </dict>
-        </dict>
-		<dict>
-			<key>scope</key>
-			<string>sublimerge.diff_block_changed</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FDECAC</string>
-			</dict>
-		</dict>
-
-	
-		<dict>
-			<key>scope</key>
-			<string>sublimerge.diff_block_inserted</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#64BF0E</string>
-			</dict>
-		</dict>
-
-	
-		<dict>
-			<key>scope</key>
-			<string>sublimerge.diff_block_deleted</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F92672</string>
-			</dict>
-		</dict>
-
-	
-		<dict>
-			<key>scope</key>
-			<string>sublimerge.diff_block_intraline_changed</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FDECAC</string>
-			</dict>
-		</dict>
-
-	
-		<dict>
-			<key>scope</key>
-			<string>sublimerge.diff_block_intraline_inserted</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FDECAC</string>
-			</dict>
-		</dict>
-
-	
-		<dict>
-			<key>scope</key>
-			<string>sublimerge.diff_block_intraline_deleted</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FDECAC</string>
-			</dict>
-		</dict>
-
-	
-		<dict>
-			<key>scope</key>
-			<string>sublimerge.diff_block_selected</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#75715E</string>
-			</dict>
-		</dict>
-
-	
-		<dict>
-			<key>scope</key>
-			<string>sublimerge.diff_block_missing</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#75715E</string>
-			</dict>
-		</dict>
-
-	
-		<dict>
-			<key>scope</key>
-			<string>sublimerge.diff_block_conflict</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FF0000</string>
-			</dict>
-		</dict>
-
-	</array>
+        </dict><dict>
+            <key>name</key>
+            <string>SublimeLinter Warning</string>
+            <key>scope</key>
+            <string>sublimelinter.mark.warning</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#DDB700</string>
+            </dict>
+        </dict></array>
   <key>uuid</key>
   <string>21a3a5f5-e82f-48a8-bc8b-9aef307f6131</string>
 </dict>
