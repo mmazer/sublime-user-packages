@@ -3,6 +3,9 @@
     { "keys": ["super+option+b"], "command": "extended_switcher", "args": {"list_mode": "window"} },
     { "keys": ["super+shift+b"], "command": "extended_switcher", "args": {"list_mode": "active_group"} },
 
+    { "keys": ["super+]"], "command": "next_view"},
+    { "keys": ["super+["], "command": "prev_view"},
+
     // Origami
     { "keys": ["super+k", "k"], "command": "travel_to_pane", "args": {"direction": "up"} },
     { "keys": ["super+k", "l"], "command": "travel_to_pane", "args": {"direction": "right"} },
@@ -52,8 +55,6 @@
 
 
     { "keys": ["shift+alt+d"], "command": "goto_definition" },
-    { "keys": ["super+]"], "command": "git_gutter_next_change" },
-    { "keys": ["super+["], "command": "git_gutter_prev_change" },
     {
         "keys": ["ctrl+]"],
         "command": "_enter_normal_mode",
