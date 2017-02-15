@@ -1,8 +1,10 @@
 <snippet>
     <content><![CDATA[
-Title: ${1}
-Date: ${2}
-Tags: ${0}
+---
+title: ${1}
+date: ${2}
+tags: [${0}]
+---
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
     <tabTrigger>mdm</tabTrigger>
