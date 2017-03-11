@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"All Autocomplete",
 		"Anaconda",
 		"Babel",
 		"BetterFindBuffer",
@@ -17,6 +16,8 @@
 		"Cucumber Completion",
 		"Cucumber Step Finder",
 		"DashDoc",
+		"DrMonthsCalendar",
+		"Emacs-like Modelines",
 		"Emmet",
 		"ExtendedTabSwitcher",
 		"FavoriteFiles",
@@ -36,6 +37,7 @@
 		"Origami",
 		"Package Control",
 		"Pretty JSON",
+		"Puppet",
 		"Quickfind",
 		"Ruby Completions",
 		"Sass",
