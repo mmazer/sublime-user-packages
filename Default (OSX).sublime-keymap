@@ -54,6 +54,29 @@
       "command": "prev_view",
       "context": [{"key": "setting.command_mode"}]
     },
+    {
+      "keys": ["z","c"],
+      "command": "fold",
+      "context": [{"key": "setting.command_mode"}]
+    },
+    {
+      "keys": ["z","a"],
+      "command": "unfold",
+      "context": [{"key": "setting.command_mode"}]
+    },
+    {
+      "keys": ["z","m"],
+      "command": "fold_by_level",
+      "args":  {
+        "level": 1
+      },
+      "context": [{"key": "setting.command_mode"}]
+    },
+    {
+      "keys": ["z","r"],
+      "command": "unfold_all",
+      "context": [{"key": "setting.command_mode"}]
+    },
     // vintage-surround
     //{"keys": ["c", "s"], "command": "surround_change", "context": [{"key": "setting.command_mode"}]},
     {"keys": ["g", "s"], "command": "surround_selection", "context": [{"key": "setting.command_mode"}]},
