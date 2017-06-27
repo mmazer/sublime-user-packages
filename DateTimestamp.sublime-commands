@@ -1,5 +1,6 @@
 [
     { "caption": "Insert Date Timestamp", "command": "add_date_time_stamp" },
+    { "caption": "Insert Date and Time", "command": "add_date_time" },
     { "caption": "Insert Date Stamp", "command": "add_date_stamp" },
     { "caption": "Insert Timestamp", "command": "add_time_stamp" }
 ]
