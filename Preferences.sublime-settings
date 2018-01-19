@@ -28,7 +28,7 @@
 	],
 	"bold_folder_labels": false,
 	"caret_style": "solid",
-	"color_scheme": "Packages/User/SublimeLinter/Material Spaceblack Oceanic (SL).tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Pro (Filter Machine) (SL).tmTheme",
 	"detect_indentation": false,
 	"draw_white_space": "all",
 	"ensure_newline_at_eof_on_save": true,
@@ -69,26 +69,26 @@
 		".svn",
 		".git",
 		".hg",
+		"env",
 		"CVS",
 		"node_modules",
 		"bower_components",
 		"dist",
-		"tmp",
-		"env"
+		"tmp"
 	],
-	"font_face": "Monaco",
-	"font_size": 12,
+	"font_face": "Cousine",
+	"font_size": 14,
 	"highlight_line": true,
 	"ignored_packages":
 	[
-		"JavaScript",
-		"Vintage"
+		"JavaScript"
 	],
 	"indent_guide_options":
 	[
 		"draw_normal",
 		"draw_active"
 	],
+	"index_files": false,
 	"line_padding_bottom": 1,
 	"line_padding_top": 1,
 	"material_theme_accent_lime": true,
@@ -103,8 +103,9 @@
 		100
 	],
 	"show_encoding": true,
+	"show_full_path": true,
 	"show_line_endings": true,
-	"theme": "Material Spaceblack.sublime-theme",
+	"theme": "Monokai Pro (Filter Machine).sublime-theme",
 	"translate_tabs_to_spaces": true,
 	"trim_trailing_white_space_on_save": true,
 	"vintage_ctrl_keys": true,
