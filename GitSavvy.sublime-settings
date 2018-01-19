@@ -8,5 +8,6 @@
     "vintageous_friendly": true,
     "vintageous_enter_insert_mode": true,
     "git_path": "/usr/local/bin/git",
-    "git_status_in_status_bar": true
+    "git_status_in_status_bar": true,
+    "show_full_commit_info": true
 }
