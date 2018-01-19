@@ -190,7 +190,18 @@
     { "keys": ["ctrl+alt+f"], "command": "select_favorite_file" },
     { "keys": ["super+shift+o"], "command": "goto_window" },
 
-    // bracket highlighter
-    { "keys": ["ctrl+shift+]"], "command": "bh_async_key", "args": { "lines": true}}
+    // sidebar
+    { "keys": ["ctrl+left"], "command": "focus_side_bar"},
+    {"keys": ["h"], "command": "move", "args": {"by": "characters", "forward": false}, "context":
+    [ {"key": "control", "operand": "sidebar_tree"} ] },
+
+    { "keys": ["j"], "command": "move", "args": {"by": "lines", "forward": true}, "context":
+    [ {"key": "control", "operand": "sidebar_tree"} ] },
+
+    { "keys": ["k"], "command": "move", "args": {"by": "lines", "forward": false}, "context":
+    [ {"key": "control", "operand": "sidebar_tree"} ] },
+
+    { "keys": ["l"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
+    [ {"key": "control", "operand": "sidebar_tree"} ] }
 
 ]
