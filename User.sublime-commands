@@ -3,9 +3,24 @@
     "caption": "git: log with options",
     "command": "gs_custom",
     "args": {
-        "output_to_panel": true,
-        "args": ["log", "{PROMPT_ARG}"],
-        "prompt_msg": "Git log options: "
+        "output_to_buffer": true,
+        "args": ["log", "-p", "{PROMPT_ARG}"],
+        "prompt_msg": "Git log options: ",
+        "syntax": "Packages/GitSavvy/syntax/show_commit.sublime-syntax"
     }
- }
+ },
+ {
+    "caption": "git: show object",
+    "command": "gs_custom",
+    "args": {
+        "output_to_buffer": true,
+        "args": ["show", "{PROMPT_ARG}"],
+        "prompt_msg": "SHA",
+         "syntax": "Packages/GitSavvy/syntax/show_commit.sublime-syntax"
+    }
+  },
+   {
+    "caption": "Show scope name",
+    "command": "show_scope_name"
+  }
 ]
